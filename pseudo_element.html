@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content: '.pdf';
+            color: aqua;
+            font-size: 10px;
+            background-color: rgb(100, 92, 89);
+        }
+        h3::before{
+            content: 'start: ';
+            color: rgb(255, 0, 149);
+            font-size: 20px;
+            background-color:chartreuse
+        }
+
+        p::first-letter{
+            font-size: 2em;
+            font-style: italic;    
+        }
+        p::first-line{
+            color: darkslateblue;
+            background-color: sandybrown;
+        }
+        ::selection{
+            background-color: dimgrey;
+            color: cyan;
+        }
+        input::placeholder{
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <!-- h3*3{Heading-$} -->
+    <h3>Heading-1</h3>
+    <h3>Heading-2</h3>
+    <h3>Heading-3</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dolore deserunt excepturi ea recusandae suscipit veritatis quidem voluptas nihil. Aliquam, magni veritatis nobis accusamus minus cupiditate! Adipisci assumenda quaerat consequatur!</p>
+    <p>Corrupti ad iste eos quo! Voluptate, optio praesentium totam doloribus ratione ducimus labore amet commodi nobis cum exercitationem, iure dolores enim quasi minima vel expedita accusamus soluta, eum doloremque quia.</p>
+    <p>Repellendus nostrum sit voluptate quo cumque explicabo maiores, delectus odit. Ipsum numquam dolorum ab quas perferendis labore nihil, praesentium aliquam minima expedita fugit quibusdam similique aliquid dolor provident impedit deserunt.</p>
+</body>
+</html>
